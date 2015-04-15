@@ -16,14 +16,14 @@
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
+	var result =  "<span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
 	$("#elapseClock").html(result);
 }
 
 	var together = new Date();
-	together.setFullYear(2011, 6, 20);
-	together.setHours(20);
-	together.setMinutes(40);
+	together.setFullYear(201, 4, 14);
+	together.setHours(21);
+	together.setMinutes(30);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
 		
