@@ -1,6 +1,5 @@
-love
-====
+A website I coded for my girlfriend.
 
-a website of our love ways... powered by curtain.js
-
-[演示地址](http://love.dylanvivi.com)
+Nerd Notes---
+Tried out curtain.js, seems a good library.
+Some error on the js timer, look at it later.
